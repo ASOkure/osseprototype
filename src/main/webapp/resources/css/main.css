@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+     
+  
+    
+}
+
+
+p{
+	font-family: calibri;
+	
+}
+
+
+
+
+
+div {
+border-bottom: 1px solid #efefef;
+margin: 10px;
+padding-bottom: 10px;
+width: 98%;
+}
+
+.title {
+float: left;
+width: 200px;
+text-align: right;
+padding-right: 10px;}
+
+
+.button{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 5px 12px;
+	text-align: centre;
+	display: inline-block;
+	font-size:16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 50px;
+}
+.button2{
+	background-color:#f44336;
+	
+	border: none;
+	color: white;
+	padding: 5px 16px;
+	text-align: centre;
+	display: inline-block;
+	font-size:16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 50px;
+}
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
